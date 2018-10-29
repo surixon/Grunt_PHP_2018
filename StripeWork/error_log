@@ -1,0 +1,35 @@
+[20-Oct-2016 07:22:20 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must be at least 50 cents' in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/traalero/public_html/trainee/stripe_payment/api.php(27): Stripe_Charge::create(Array)
+#5 /home/traalero/public_html/trainee/stripe_payment/api.php(8): stripe_payment()
+#6 {mai in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php on line 147
+[20-Oct-2016 07:32:05 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_196artC2MOgJcsCdFfHeXfhp.' in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/traalero/public_html/trainee/stripe_payment/api.php(27): Stripe_Charge::create(Array)
+#5 /home/traalero/public_html/trainee/stripe_p in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php on line 147
+[20-Oct-2016 07:32:48 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_196artC2MOgJcsCdFfHeXfhp.' in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/traalero/public_html/trainee/stripe_payment/api.php(26): Stripe_Charge::create(Array)
+#5 /home/traalero/public_html/trainee/stripe_p in /home/traalero/public_html/trainee/stripe_payment/Stripe/lib/Stripe/ApiRequestor.php on line 147
+[20-Oct-2016 09:21:59 Etc/GMT] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 09:21:59 Etc/GMT] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:10:33 Etc/GMT] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:10:33 Etc/GMT] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:07 Etc/GMT] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:07 Etc/GMT] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:47 Etc/GMT] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:47 Etc/GMT] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:49 Etc/GMT] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3
+[20-Oct-2016 11:15:49 Etc/GMT] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/traalero/public_html/trainee/stripe_payment/api.php on line 3

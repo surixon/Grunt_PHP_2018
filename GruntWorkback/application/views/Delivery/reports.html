@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>CABSCOUT</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+    <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#" class="simple-text">
+                    CABSCOUT
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fa fa-money"></i>
+                        <p>Pay Drivers</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="reports.html">
+                        <i class="fa fa-file-text"></i>
+                        <p>Reports</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="company.html">
+                        <i class="fa fa-building-o"></i>
+                        <p>Company</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="drivers.html">
+                        <i class="fa fa-car"></i>
+                        <p>Drivers</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="price.html">
+                        <i class="fa fa-tags"></i>
+                        <p>Pricing</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="corp.html">
+                        <i class="fa fa-male"></i>
+                        <p>Corp Acct</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="promo.html">
+                        <i class="fa fa-gift"></i>
+                        <p>Promotion</p>
+                    </a>
+                </li>
+			
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="reports.html">Reports</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="ti-panel"></i>
+								<p>Stats</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                    <p class="notification">5</p>
+									<p>Notifications</p>
+									<b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+						<li>
+                            <a href="#">
+								<i class="ti-settings"></i>
+								<p>Settings</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+ <a href="dispatch.html" class="btn btn-info">
+                        <i class="fa fa-share-square-o"></i>
+                        <p>Dispatch</p>
+                    </a>
+
+     
+               <div class="container">
+                <div class="row">
+              <div class="col-lg-6 col-sm-6">
+			   <div class="col-lg-3 col-sm-3">
+			 
+<a class="btn btn-large btn-info" data-toggle="tab" href="#home"> Corp Accounts</a>
+			   </div>
+			   <div class="col-lg-3 col-sm-3">
+   <a class="btn btn-large btn-info" data-toggle="tab" href="#menu2">All Jobs Report</a>
+			   </div>
+						<div class="row" >
+				<div class="col-lg-12 col-sm-12">
+				<div class="radio">
+  <label><input type="radio" name="optradio">Show</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">This Week</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Bi-Weekly</label>
+</div>
+  <div class="radio">
+  <label><input type="radio" name="optradio">This Month</label>
+</div>
+</div>
+
+				
+  
+				</div>
+			  </div>
+			  
+
+                    <div class="col-lg-6 col-sm-12">
+					<div class="col-lg-6 col-sm-6">
+					<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Corporation Name
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">#LOC1</a></li>
+      <li><a href="#">#LOC2</a></li>
+      <li><a href="#">#LOC3</a></li>
+    </ul>
+  </div></br>
+    <input class="form-control" id="inputdefault" type="text" placeholder="Driver Name">
+					</div>
+					
+                        <div class="col-lg-6 col-sm-6">
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Payment Status
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Paid</a></li>
+      <li><a href="#">No</a></li>
+    </ul>
+  </div></br>
+  
+  </div>
+  <div class="col-lg-4 col-sm-4">
+				By Date <input class="form-control"  type="date" > To <input class="form-control" type="date">
+				</div>
+  </div>
+
+                </div>
+			
+				
+				
+				
+				 
+				</div>
+				
+				<div class="container">
+
+				<div class="content">
+				<ul class="nav nav-tabs hidden">
+    <li class="active"><a data-toggle="tab" href="#home">Crop Acc Summary</a></li>
+    <li><a data-toggle="tab" href="#menu1">Crop Acc Details List</a></li>
+    <li><a data-toggle="tab" href="#menu2">ALL Jobs Log Report</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Crop Acc Summary</h3>				 <a class="btn btn-large btn-info" data-toggle="tab" href="#menu1">Email Details Bill to All Corporations on list</a></br>
+       <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Summary Table</h4>
+                                <p class="category"></p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Corp Name</th>
+                                    	<th>#of Orders</th>
+                                    	<th>Order Period Start Date</th>
+                                    	<th>Order Period End Date</th>
+                                    	<th>Amount Due</th>
+										<th>Driver Payment Status</th>
+										<th>Payment Date</th>
+										<th>ACTION</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>40</td>
+                                        	<td>01/01/2017 12:00 AM</td>
+                                        	<td>01/08/2017 11:59 PM</td>
+                                        	<td>468</td>
+											<td>Paid</td>
+											<td>01/08/2017</td>
+											<td>Show DetailsADD NOTE Export</td>
+                                        </tr>
+                                       <tr>
+                                        	<td>JPD Store</td>
+                                        	<td>7</td>
+                                        	<td>01/01/2017 12:00 AM</td>
+                                        	<td>01/08/2017 11:59 PM</td>
+                                        	<td>63</td>
+											<td>Paid</td>
+											<td>01/08/2017</td>
+											<td>Show DetailsADD NOTE Export</td>
+                                        </tr>
+										<tr>
+                                       <tr>
+                                        	<td>Delivery Compnay</td>
+                                        	<td>1519</td>
+                                        	<td>01/01/2017 12:00 AM</td>
+                                        	<td>01/08/2017 11:59 PM</td>
+                                        	<td>5400</td>
+											<td>Paid</td>
+											<td>01/08/2017</td>
+											<td>Show DetailsADD NOTE Export</td>
+                                        </tr>
+										
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+	 
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Crop Acc Details List</h3>
+         <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Crop Acc Details List Table</h4>
+                                <p class="category"></p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Corp Name</th>
+										<th>Customer</th>
+										<th>Order ID</th>
+                                    	<th>Order Date</th>
+                                    	<th>Pickup</th>
+										<th>Destination</th>
+										<th>Amount Due</th>
+										<th>Payment Status</th>
+										<th>Payment Date</th>
+										<th>ACTION</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>John Stone</td>
+                                        	<td>89821</td>
+                                        	<td>01/01/2017</td>
+                                        	<td>JFK Airport</td>
+											<td>1501 Lexington Ave</td>
+											<td>43</td>
+											<td>Pending</td>
+											<td></td>
+											<td>Edit Order</td>
+                                        </tr>
+                                       <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>Mike Angelo</td>
+                                        	<td>40032</td>
+                                        	<td>01/01/2017</td>
+                                        	<td>25 butch street</td>
+											<td>14421 78th Ave</td>
+											<td>20</td>
+											<td>Pending</td>
+											<td></td>
+											<td>Edit Order</td>
+                                        </tr>
+										<tr>
+                                       <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>Leo Faraday</td>
+                                        	<td>10004</td>
+                                        	<td>01/01/2017</td>
+                                        	<td>19 Tool Road</td>
+											<td>14421 78th Ave</td>
+											<td>18</td>
+											<td>Pending</td>
+											<td></td>
+											<td>Edit Order</td>
+                                        </tr>
+										
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>ALL Jobs Log Report</h3>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">ALL Jobs Log Report Table</h4>
+                                <p class="category"></p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>Corp Name</th>
+										<th>Driver Name</th>
+										<th>Driver ID</th>
+                                    	<th>Customer Name/th>
+                                    	<th>order Date</th>
+										<th>Pickup date</th>
+										<th>Pickup Time</th>
+										<th>Destination</th>
+										<th>Job Completed Time</th>
+										<th>ACTION</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>John Stone</td>
+                                        	<td>12341</td>
+                                        	<td>Miche Sens</td>
+                                        	<td>01/01/2017 01:56 pm</td>
+											<td>JFK Airport</td>
+											<td>01/01/2017 02:01 pm</td>
+											<td>1501 Lexington Ave</td>
+											<td>01/01/2017 02:10pm</td>
+											<td>Edit Order</td>
+                                        </tr>
+                                       <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>Mike Angelo</td>
+                                        	<td>22433</td>
+                                        	<td>Yu fine</td>
+                                        	<td>01/02/2017 02:32 pm</td>
+											<td>25 butch street</td>
+											<td>01/02/2017 02:46pm</td>
+											<td>14421 78th Ave</td>
+											<td>01/01/2017 02:32pm</td>
+											<td>Edit Order</td>
+                                        </tr>
+										<tr>
+                                       <tr>
+                                        	<td>Bloomings c0.</td>
+                                        	<td>Leo Faraday</td>
+                                        	<td>44341</td>
+                                        	<td>John Stards</td>
+                                        	<td>01/02/2017 03:30 pm</td>
+											<td>19 Tool Road</td>
+											<td>01/01/2017 02:01 pm</td>
+											<td>909 Wesbusyr St</td>
+											<td>01/01/2017 02:10pm</td>
+											<td>Edit Order</td>
+                                        </tr>
+										
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+				</div>
+				</div>
+				
+          </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+
+                        <li>
+                            <a href="#">
+                                CABSCOUT
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Licenses
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy; CABSCOUT
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="assets/js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+	<script src="assets/js/demo.js"></script>
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+
+        	demo.initChartist();
+
+        	$.notify({
+            	icon: 'ti-gift',
+            	message: "Welcome to <b>CABSCOUT</b> "
+
+            },{
+                type: 'success',
+                timer: 4000
+            });
+
+    	});
+	</script>
+
+</html>
